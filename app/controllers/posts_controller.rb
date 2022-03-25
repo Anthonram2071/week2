@@ -9,7 +9,7 @@ class PostsController < ApplicationController
 
   # GET /posts/1 or /posts/1.json
   def show
-    @troy = "something"
+    @Anthony = "something"
     
   end
 
