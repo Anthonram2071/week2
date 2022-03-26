@@ -1,4 +1,4 @@
-class User < ApplicationRecord: :Base
+class User < ApplicationRecord:
     has_secure_password
   
     attr_accessible :email, :password, :password_confirmation
