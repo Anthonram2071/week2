@@ -1,7 +1,7 @@
-class User < ApplicationRecord:
+class User < ApplicationRecord: :Base
     has_secure_password
   
-    attr_accessible :email, :password, :password_confirmation
+    attr_accessible: :email, :password, :password_confirmation
       
-    validates_uniqueness_of :email
+    validates_uniqueness_of: :email
 end
